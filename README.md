@@ -70,7 +70,7 @@ Aktiv istifadəçilər və qruplar haqqında məlumat.
 # nmap scan vasitəsilə default skriptləri yoxladıq
 sudo nmap -sCV  10.10.56.170 -T4 -vv  
 ```
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/1561c098ad65e80af3594a5a2f984be38e9cf86f/img/nmap-script.png)
 
 # Kerberos
 - Kerberos Active Directory daxilində əsas autentifikasiya xidmətidir. Bu portun açıq olması ilə istifadəçiləri, parolları və hətta parol spreyini kobud güclə tapmaq üçün `Kerbrute` adlı alətdən  istifadə edə bilərik!
@@ -82,7 +82,7 @@ sudo nmap -sCV  10.10.56.170 -T4 -vv
 kerbrute userenum --dc 10.10.56.170 -d spookysec.local userlist.txt
 ```
 
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/1561c098ad65e80af3594a5a2f984be38e9cf86f/img/kerbrute.png)
 
 **ASREProasting** adlı hücum metodu ilə **Kerberos** sistemindəki bir zəiflikdən sui-istifadə etmək mümkündür. Bu hücum, istifadəçi hesabının **"Ön Doğrulama Tələb Etmir"** (Pre-Authentication Not Required) imtiyazına malik olduğu hallarda baş verir.
 
@@ -102,10 +102,12 @@ Bu proses mənə, hansı istifadəçilərin **Kerberos biletlərini (TGT)** paro
 python3 /usr/share/doc/python3-impacket/examples/GetNPUsers.py -dc-ip 10.10.56.170 spookysec.local/ -no-pass -usersfile
 enum-useers
 ```
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/1561c098ad65e80af3594a5a2f984be38e9cf86f/img/asrep.png)
 
 # Ümumi hash növləri
 link: https://hashcat.net/wiki/doku.php?id=example_hashes
 
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/1561c098ad65e80af3594a5a2f984be38e9cf86f/img/hash-check.png)
 ```bash
 #GetNPUsers.py ilə əldə etdiyimiz hash yeni bir fayla yazırıq,
 #ve onu hashcat ilə crack etməyə çalışacağıq.
@@ -114,6 +116,7 @@ hashcat -m 18200 yeni-hash passwordlist.txt
 
 nəticə : management2005
 ```
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/1561c098ad65e80af3594a5a2f984be38e9cf86f/img/hashcat-result.png)
 # SMBClient
 SMBClient — SMB (Server Message Block) protokolunu istifadə edərək, şəbəkə üzərindən fayl paylaşımı, çap xidmətləri və digər şəbəkə resurslarına daxil olmaq üçün istifadə olunan bir alətdir
 
