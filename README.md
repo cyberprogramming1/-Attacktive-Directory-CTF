@@ -5,7 +5,7 @@ Nmap, cihazda hansı portların açıq olduğunu, hansı xidmətlərin işlədiy
 ```bash
 sudo nmap -sV 10.10.56.170 -T4 -vv
 ```
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/50ffca3483cc27315a55a5c892b785a6ac0910aa/img/nmap.png)
 
 * Əvvəlcə Impacket Github repo-nu qutunuza klonlamalı olacaqsınız. Aşağıdakı komanda Impacket-i `/opt/impacket-ə` klonlayacaq:
 ```bash
