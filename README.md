@@ -39,7 +39,7 @@ sudo neo4j console
 #Yükləmək istədikdə , hər hansı bir problem olsa, onda bu linkə keçid edin:
 link: https://www.kali.org/tools/bloodhound/
 ```
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/44faca9cb9a8b675093739ebaaa434111eac6768/img/neo.png)
 
 #  Evil-WinRM :
 `https://book.hacktricks.xyz/network-services-pentesting/5985-5986-pentesting-winrm#using-evil-winrm`
@@ -64,7 +64,7 @@ Sistem adları, domen adları və iş qrupları haqqında məlumat.
 Paylaşılan resursların siyahısını çıxarmaq (shared folders).
 Aktiv istifadəçilər və qruplar haqqında məlumat.
 
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/44faca9cb9a8b675093739ebaaa434111eac6768/img/enum4linux.png)
 
 ```bash
 # nmap scan vasitəsilə default skriptləri yoxladıq
