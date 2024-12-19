@@ -130,10 +130,10 @@ get backup_credentials.txt
 echo "YmFja3VwQHNwb29reXNlYy5sb2NhbDpiYWNrdXAyNTE3ODYw" | base64 -d
 ```
 
-![image alt]()
-![image alt]()
-![image alt]()
-![image alt]()
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/84bb60361b53bff9068b8f4164fe9232e97fbd25/img/smb1.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/84bb60361b53bff9068b8f4164fe9232e97fbd25/img/smb2.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/84bb60361b53bff9068b8f4164fe9232e97fbd25/img/smb3.png)
+![image alt](https://github.com/cyberprogramming1/-Attacktive-Directory-CTF/blob/84bb60361b53bff9068b8f4164fe9232e97fbd25/img/smb4.png)
 
 # Credential Dumping: Secretsdump aləti ilə Active Directory-dən istifadəçi məlumatlarını ələ keçirdim.
 ```bash
